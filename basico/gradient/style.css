@@ -1,0 +1,11 @@
+div{
+    height:100vh;
+    margin-top: 10px;
+}
+
+.gradient1{
+ background-image: repeating-radial-gradient(black 1%, rgb(185, 65, 201) 25%);
+}
+.gradient2{
+    background-image: repeating-radial-gradient(rgb(255, 255, 255) 10%, rgba(51, 180, 255, 0.925) 20%);
+   }

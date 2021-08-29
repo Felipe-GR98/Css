@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+}
+.cabecalho {
+    text-align: center;
+    background-color: rgb(88, 172, 226);
+    height: 100px;
+    font-family: 'Pangolin', cursive;
+}
+main {
+    background-image: url(../img/alfons-morales-YLSwjSy7stw-unsplash.jpg);
+    background-attachment: fixed;   
+    background-size: cover;
+}
+nav {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: white; 
+    padding: 5px;
+}
+nav a:hover {
+    /* background-color: #F8C100;  */
+    border-radius: 5px; 
+    background-color: blue;  
+}
+section {
+    background-image: linear-gradient(rgba(88, 172, 226, 0.7),
+     rgba(88, 172, 226, 0.7));
+    margin: 0 auto;
+    width: 920px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.categoriaA {
+    background-color: slategray;  
+    margin:  20px auto;
+    width: 50vw;
+    padding: 20px;
+}
+.categoriaB {
+    margin:  20px auto;
+    width: 50vw;
+    padding: 20px;
+}
+footer {
+    height: 100px;
+    background-color: rgb(88, 172, 226);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.imgautor {
+    width: 100px;
+    box-shadow: 1px 1px 10px 1px blue;
+    margin: 5px;
+}
+.imglivro {
+    width: 100px;
+    box-shadow: 1px 1px 10px 1px #F8C100;
+    margin: 5px;
+}

@@ -1,0 +1,20 @@
+.pai{
+    background-color: lightcoral;
+}
+
+.filho{
+    background-color: lightseagreen;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    /* top: 10px; */
+    left: 200px;
+}
+.absoluto{
+    box-shadow: 3px 3px 3px 3px blue;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top:12px;
+    right: 20px;
+}

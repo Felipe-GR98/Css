@@ -1,0 +1,19 @@
+.div1{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.div2{
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+}
+.div3{
+    background-color: rgb(7, 32, 255);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}

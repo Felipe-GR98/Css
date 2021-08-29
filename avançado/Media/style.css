@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    width: 40%;
+    height:300px;
+    background-color: blue;
+}
+@media(max-width:800px){
+    .div1{
+        width:100%;
+        background-color:green;
+        color:aqua;
+    }
+}
+.div2{
+    width: 50%;
+    height:200px;
+    background-color: rgb(2, 247, 55);
+}
+@media(max-width:600px){
+    .div2{
+        width:100%;
+        background-color:rgb(233, 32, 172);
+        color: blueviolet;
+    }
+}

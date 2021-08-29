@@ -1,0 +1,18 @@
+*{
+    margin:0;
+}
+
+.container{
+    width:60%;
+    background-color: brown;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.itens{
+    width: 175px;
+    height:175px;
+    background-color: aquamarine;
+    margin: 15px;
+}

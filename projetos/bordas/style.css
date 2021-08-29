@@ -1,0 +1,28 @@
+.div1{
+    margin: 20px 25px 20px 10px;
+    background:#234234;
+    border: dashed 2px red;
+}
+.div1 h1{
+    padding: 60px;
+    background: #abc123;
+}
+.div1 p{
+    padding: 30px 50px;
+    background: #afe444;
+}
+.div2{
+    padding: 100px 60px 0px 80px;
+    background: #bbb000;
+    border: 1px solid;
+    border-radius: 30px;
+}
+.div2 h1{
+    padding: 30px;
+    margin: 10px 50px 80px 100px;
+    background: #abc123;
+}
+.div2 p{
+    padding: 30px 50px;
+    background: #afe444;
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-image: url(images/bg_gradient.gif);
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+ margin-left: 180px;
+}
+
+nav{
+    background-image: url(images/menu.gif);
+    height:35px;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+
+ul a{
+    text-decoration: none;
+    color:#fff;
+    font-weight:500;
+    padding: 0 68.9px; 
+    line-height: 1.5em;
+    background: url(images/toal.gif) repeat-y;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+ button{
+    clear: both;
+    display: flex;
+    justify-content: right;
+    background-image: url(images/large_button.gif);
+    height: 30px;
+    line-height: 30px;  
+    font-size: 1.5em;
+    color: #fff;
+    margin-left: 260px;
+    border: 0;
+    cursor: pointer;
+}
+
+footer{
+    clear: both;  
+    color: #fff;
+    text-align: center;  
+}
+
+#principal{
+    margin: 0 auto;
+    width:900px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgb(5, 5, 5);
+}
+
+.conteudo{
+    background-color: #E6E6E6;
+    width:861px;
+    float:left;
+    padding: 30px 20px;
+}
+
+.conteudo h2, .conteudo p{
+    width:65%;
+    float: left;
+}
+
+.conteudo img{
+    float: right;
+    width:30%;
+}
+
+.meio{
+    background-image:url(images/menu.gif);
+}
+
+.conteudo2{
+    padding: 20px;
+    width: 28.5%;
+    float: left;
+    background-color: #fff;
+    border-right: 3px solid blue;
+    margin-bottom: 30px;
+    height: 250px;
+    box-shadow: 2px 2px 10px rgb(5, 5, 5);
+}
+
+.conteudo2 h3{
+  color: aqua;
+  font-weight: bold;
+}
+
+.conteudo2 p{
+    color:rgb(128, 209, 6);
+    padding: 15px;
+}
+
+.btn2{
+    background-image: url(images/little_button.gif);
+    width: 78px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
